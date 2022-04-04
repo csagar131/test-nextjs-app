@@ -1,15 +1,17 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Head from "next/head";
+import Meta from "../partials/Meta";
 
 export default function Layout({ children }) {
   return (
     <>
-      <Head>
-        <html lang='en' />
-        <meta name="description" content="Meta description content goes here." />
-        <title>test next.js</title>
-      </Head>
+      <Meta
+        title="This Is A Title | Website Name"
+        desc="This is the description"
+        canonical="https://www.someurl.com"
+        css="/static/css/styles.css"
+        js="/static/js/scripts.js"
+      />
       <Navbar />
       <main>{children}</main>
       <Footer />
