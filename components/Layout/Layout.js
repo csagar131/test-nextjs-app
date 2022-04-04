@@ -7,6 +7,7 @@ export default function Layout({ children }) {
     <>
       <Head>
         <html lang='en' />
+        <meta name="description" content="Meta description content goes here." />
         <title>test next.js</title>
       </Head>
       <Navbar />
