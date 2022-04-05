@@ -1,15 +1,11 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Meta from "../partials/Meta";
+import HeadTag from "../partials/HeadTag";
 
 export default function Layout({ children }) {
   return (
     <>
-      <Meta
-        title="This Is A Title | Website Name"
-        desc="This is the description"
-        canonical="https://www.someurl.com"
-      />
+      <HeadTag />
       <Navbar />
       <main>{children}</main>
       <Footer />

@@ -1,11 +1,12 @@
-import styles from "../styles/Home.module.css";
+import {Fragment} from 'react'
+import Banner from '../components/Home/Banner';
+import Feature from '../components/Home/Feature';
 
 export default function Home() {
   return (
-    <>
-      <div className={styles.container}>
-        <h1>Homepage</h1>
-      </div>
-    </>
+    <Fragment>
+        <Banner/>
+        <Feature/>
+    </Fragment>
   );
 }
