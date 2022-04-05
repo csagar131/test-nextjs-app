@@ -17,12 +17,14 @@ const Navbar = () => {
               <span className="my-1 mx-2 close">X</span>
               <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="https://www.pickrr.com/">
+            {/* <a className="navbar-brand" href="https://www.pickrr.com/">
               <Image src="https://d10srchmli830n.cloudfront.net/1645333441395_New-logo_c.svg" className="desktop-only"
-                alt="pickrr-logo" />
+                alt="pickrr-logo" layout="fill"
+                objectFit="cover"/>
               <Image src="https://d10srchmli830n.cloudfront.net/1639730525608_Group-19262.png" className="mobile-only"
-                alt="pickrr-mobile-logo" />
-            </a>
+                alt="pickrr-mobile-logo" layout="fill"
+                objectFit="cover" />
+            </a> */}
           </div>
           <div>
             <ul className="d-flex login-signup-mobile mb-0 p-0" style={{listStyle:'none'}}>

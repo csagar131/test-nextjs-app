@@ -11,22 +11,27 @@ const Banner = () => {
           <h1 className="fw-bold banner-heading desktop-only"><span style={{color: '#2D7BE4'}}>eCommerce</span> Shipping <br />
             Solutions</h1>
           <div className="d-flex align-items-baseline p-1">
-            <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
-                alt="tick" /></div>
-            <div>
+            {/* <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
+                alt="tick" layout="fill"
+                objectFit="cover" /></div>
+            <div> */}
               <p className="banner-subheading">AI enabled dashboard for eCommerce business</p>
             </div>
           </div>
           <div className="d-flex align-items-baseline p-1">
-            <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
-                alt="tick" /></div>
+            {/* <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
+                alt="tick" layout="fill"
+                objectFit="cover" />
+            </div> */}
             <div>
               <p className="banner-subheading">Fastest delivery across 29,000 pincodes</p>
             </div>
           </div>
           <div className="d-flex align-items-baseline p-1">
-            <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
-                alt="tick" /></div>
+            {/* <div className="mr-2"><Image src="https://d10srchmli830n.cloudfront.net/1640535774177_Group-2630.png"
+                alt="tick" layout="fill"
+                objectFit="cover"/>
+            </div> */}
             <div>
               <p className="banner-subheading">One click integration, no coding required</p>
             </div>
@@ -43,11 +48,12 @@ const Banner = () => {
           <h1 className="fw-bold banner-heading mobile-only"><span style={{color: '#2D7BE4'}}>eCommerce</span> Shipping <br />
             Solutions
           </h1>
-          <Image src="https://pickrr.s3.amazonaws.com/2022-03-30T16:30:19.351865_pickrr_analytics.png"
-            alt="ecommerce shipping solutions" className="img-fluid px-3" />
+          {/* <Image src="https://pickrr.s3.amazonaws.com/2022-03-30T16:30:19.351865_pickrr_analytics.png"
+            alt="ecommerce shipping solutions" className="img-fluid px-3" layout="fill"
+            objectFit="cover"/> */}
         </div>
       </div>
-    </div>
+   
   </section>
   )
 }
