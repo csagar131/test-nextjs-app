@@ -41,20 +41,16 @@ const Feature = () => {
           <p className="commit-subheading">We bring the power of data to help you make the right decisions to improve your
             conversion rate.</p>
         </div>
-        {/* <div id="commitment-image-section">
-          <Image src="https://d10srchmli830n.cloudfront.net/1645333637402_Group-19107.svg" id="commit-1-image"
-            alt="reduce RTO losses" className="d-block width-100-mobile-only" layout="fill"
-            objectFit="cover"/>
-          <Image src="https://d10srchmli830n.cloudfront.net/1640591271099_Group-19093.png" id="commit-2-image"
-            alt="reduce shipping cost" className="d-none width-100-mobile-only" loading="lazy" layout="fill"
-            objectFit="cover"/>
-          <Image src="https://d10srchmli830n.cloudfront.net/1640598662546_Group-19152.png" id="commit-3-image"
-            alt="deliver within hours" className="d-none width-100-mobile-only" loading="lazy" layout="fill"
-            objectFit="cover"/>
-          <Image src="https://d10srchmli830n.cloudfront.net/1640598753764_Group-19153.png" id="commit-4-image"
-            alt="Start shipping within seconds" className="d-none width-100-mobile-only" loading="lazy" layout="fill"
-            objectFit="cover"/>
-        </div> */}
+        <div id="commitment-image-section">
+          <img src="https://d10srchmli830n.cloudfront.net/1645333637402_Group-19107.svg" id="commit-1-image"
+            alt="reduce RTO losses" className="d-block width-100-mobile-only" />
+          <img src="https://d10srchmli830n.cloudfront.net/1640591271099_Group-19093.png" id="commit-2-image"
+            alt="reduce shipping cost" className="d-none width-100-mobile-only" loading="lazy" />
+          <img src="https://d10srchmli830n.cloudfront.net/1640598662546_Group-19152.png" id="commit-3-image"
+            alt="deliver within hours" className="d-none width-100-mobile-only" loading="lazy" />
+          <img src="https://d10srchmli830n.cloudfront.net/1640598753764_Group-19153.png" id="commit-4-image"
+            alt="Start shipping within seconds" className="d-none width-100-mobile-only" loading="lazy" />
+        </div>
       </div>
     </div>
   </section>

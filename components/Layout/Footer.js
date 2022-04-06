@@ -27,14 +27,12 @@ const Footer = () => {
       <div className="bottom-footer">
         <div>
           <div className="pb-3">
-            {/* <a href="/" id="footer-home" rel="noopener noreferrer" target="_blank">
-              <Image
+            <a href="/" id="footer-home" rel="noopener noreferrer" target="_blank">
+              <img
                 src="https://d10srchmli830n.cloudfront.net/1645334970878_New-logo_c-(1).svg"
                 alt="pickrr logo"
-                layout="fill"
-    objectFit="cover"
               />
-            </a> */}
+            </a>
           </div>
           <div className="address-text text-start">
             3rd &#38; 4th floor, Enkay Square,
@@ -56,52 +54,46 @@ const Footer = () => {
             <div className="address-text">Join our Social Community</div>
             <div className="d-flex align-items-center" style={{width: '100%' }}>
               <div style={{marginRight: '8px'}}>
-                {/* <a
+                <a
                   href="https://instagram.com/pickrr_?utm_medium=copy_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Image
+                  <img
                     className="social-media-icon-height"
                     src="https://d10srchmli830n.cloudfront.net/1645335004225_Group-(9).svg"
                     alt="instagram"
-                    layout="fill"
-    objectFit="cover"
                   />
-                </a> */}
+                </a>
               </div>
               <div style={{marginRight: '8px'}}>
-                {/* <a href="https://www.facebook.com/pickrr/" target="_blank" rel="noopener noreferrer">
-                  <Image
+                <a href="https://www.facebook.com/pickrr/" target="_blank" rel="noopener noreferrer">
+                  <img
                     className="social-media-icon-height"
                     src="https://d10srchmli830n.cloudfront.net/1645335029140_Vector-(1).svg"
                     alt="facebook"
-                    layout="fill"
-    objectFit="cover"
+                  
                   />
-                </a> */}
+                </a>
               </div>
               <div style={{marginRight: '8px'}}>
-                {/* <a href="https://www.linkedin.com/company/pickrr">
-                  <Image
+                <a href="https://www.linkedin.com/company/pickrr">
+                  <img
                     className="social-media-icon-height"
                     src="https://d10srchmli830n.cloudfront.net/1645335047474_Group-(10).svg"
                     alt="linkedin"
-                    layout="fill"
-    objectFit="cover"
                   />
-                </a> */}
+                </a>
               </div>
               <div>
-                {/* <a href="https://twitter.com/Pickrr_" rel="noopener noreferrer" target="_blank">
-                  <Image
+                <a href="https://twitter.com/Pickrr_" rel="noopener noreferrer" target="_blank">
+                  <img
                     className="social-media-icon-height"
                     src="https://d10srchmli830n.cloudfront.net/1645335064514_Group-(11).svg"
                     alt="twitter"
-                    layout="fill"
-    objectFit="cover"
+                   
                   />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -194,52 +186,48 @@ const Footer = () => {
            style={{width: '100%'}}
           >
             <div style={{marginRight: '8px'}}>
-              {/* <a
+              <a
                 href="https://instagram.com/pickrr_?utm_medium=copy_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Image
+                <img
                   className="social-media-icon-height"
                   src="https://d10srchmli830n.cloudfront.net/1639142330358_Vector-(1).png"
                   alt="instagram"
-                  layout="fill"
-    objectFit="cover"
+                  
                 />
-              </a> */}
+              </a>
             </div>
             <div style={{marginRight: '8px'}}>
-              {/* <a href="https://www.facebook.com/pickrr/" rel="noopener noreferrer" target="_blank">
-                <Image
+              <a href="https://www.facebook.com/pickrr/" rel="noopener noreferrer" target="_blank">
+                <img
                   className="social-media-icon-height"
                   src="https://d10srchmli830n.cloudfront.net/1639142386059_Vector-(2).png"
                   alt="facebook"
-                  layout="fill"
-    objectFit="cover"
+                  
                 />
-              </a> */}
+              </a>
             </div>
             <div style={{marginRight: '8px'}}>
-              {/* <a href="https://www.linkedin.com/company/pickrr">
-                <Image
+              <a href="https://www.linkedin.com/company/pickrr">
+                <img
                   className="social-media-icon-height"
                   src="https://d10srchmli830n.cloudfront.net/1639142436463_Group-(2).png"
                   alt="linkedin"
-                  layout="fill"
-    objectFit="cover"
+                  
                 />
-              </a> */}
+              </a>
             </div>
             <div>
-              {/* <a href="https://twitter.com/Pickrr_" rel="noopener noreferrer" target="_blank">
-                <Image
+              <a href="https://twitter.com/Pickrr_" rel="noopener noreferrer" target="_blank">
+                <img
                   className="social-media-icon-height"
                   src="https://d10srchmli830n.cloudfront.net/1639142533098_Group-(3).png"
                   alt="twitter"
-                  layout="fill"
-    objectFit="cover"
+                 
                 />
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
