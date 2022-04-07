@@ -80,7 +80,7 @@ const DelightCustomer = () => {
                       <img src="https://d10srchmli830n.cloudfront.net/1640544754705_Ellipse-2540.png" alt="profile-image" className="profile-image-alignments" height="42px" width="42px" />
                     </div> --> */}
                   <div>
-                    <p className="profile-details">It's quite convenient to see all orders from multiple channels like
+                    <p className="profile-details">It&quot;s quite convenient to see all orders from multiple channels like
                       Amazon, Flipkart and my own facebook page in one place. For a small business like mine Pickrr
                       dashboard is a complete supply chain team in itself</p>
                     <p className="profile-details m-0 pt-3"> <span className="fw-bold">Swati Verma <br /></span> Owner, Laviossa

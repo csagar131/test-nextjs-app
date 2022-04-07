@@ -9,7 +9,7 @@ const DownloadPickrrSection = () => {
           <div className="text-center">
             <h3 className="download-app-text">Download Pickrr App <br/> and manage all your orders
             </h3>
-            <a href="https://play.google.com/store/apps/details?id=com.pickrr" target="_blank">
+            <a href="https://play.google.com/store/apps/details?id=com.pickrr" target="_blank" rel="noopener noreferrer"> 
               <img src="https://d10srchmli830n.cloudfront.net/1645425786930_Group-11206-(1).svg" alt="google play"
                 height="auto" style={{margin: 'auto'}} className="img-fluid" />
             </a>

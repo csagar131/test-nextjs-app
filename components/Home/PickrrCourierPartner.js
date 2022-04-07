@@ -9,7 +9,7 @@ const PickrrCourierPartner = () => {
             <h2 className="courier-partner-heading m-0">30+ delivery partners</h2>
           </div>
           <div className="desktop-only">
-            <a href="https://pickrr.com/carrier-int" target="_blank">
+            <a href="https://pickrr.com/carrier-int" target="_blank" rel="noopener noreferrer">
               <span
                 className="view-all-button"
                 style={{color: '#fff', background: '#185cb5'}}
@@ -43,7 +43,7 @@ const PickrrCourierPartner = () => {
           </picture>
         </div>
         <div className="mobile-only text-center mt-4">
-          <a href="https://pickrr.com/carrier-int" target="_blank">
+          <a href="https://pickrr.com/carrier-int" target="_blank" rel="noopener noreferrer">
             <span
               className="view-all-button"
               style={{color: '#fff', background: '#185cb5'}}
