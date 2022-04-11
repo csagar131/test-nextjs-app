@@ -1060,7 +1060,7 @@
   
   @media screen and (max-width: 768px) {
     .banner-heading {
-      color: #fff;
+      color: #38446d;
       font-size: 28px;
       line-height: 120%;
       margin-bottom: 16px;
@@ -1102,7 +1102,7 @@
   
     .banner-subheading {
       font-size: 20px !important;
-      color: #fff;
+      /* color: #fff; */
       padding-bottom: 28px;
       padding-left: 0px;
       line-height: 24px !important;

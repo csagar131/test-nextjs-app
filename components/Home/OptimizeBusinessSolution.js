@@ -50,7 +50,7 @@ const OptimizeBusinessSolution = () => {
               subscription. We pickup your orders from all your storage locations.</p>
             <div className="pt-5">
               <a href="/pickrr-connect" target="_blank">
-                <span className="view-all-button" style={{color: '#fff', background: '#185cb'}}>See How it works<span
+                <span className="view-all-button" style={{color: '#fff', background: '#185cb5'}}>See How it works<span
                     style={{paddingLeft: '40px'}}><img
                       src="https://d10srchmli830n.cloudfront.net/1640547869166_arrow-right-3-(2).png" alt="white-arrow"
                       height="20px" width="20px" /></span></span>
