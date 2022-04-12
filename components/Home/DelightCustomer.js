@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousal from '../UI/Carousal'
 
 const DelightCustomer = () => {
   return (
@@ -61,6 +62,7 @@ const DelightCustomer = () => {
                 aria-label="Slide 3"></button>
             </div>
             <div className="carousel-inner">
+              <Carousal>
               <div className="carousel-item p-2 active" data-bs-interval="3000">
                 <div className="user-profile-card d-flex supercharge-height">
                   {/* <!-- <div>
@@ -101,6 +103,7 @@ const DelightCustomer = () => {
                   </div>
                 </div>
               </div>
+              </Carousal>
             </div>
             {/* <!-- <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
