@@ -58,8 +58,6 @@ export default function Home() {
           type="image/x-icon"
           href="https://d10srchmli830n.cloudfront.net/1639730525608_Group-19262.png"
         />
-        {/* <link href="/static/home.css" rel="stylesheet" key="home"/>
-        <link href="/static/navbar.css" rel="stylesheet" key="navbar"/> */}
       </Head>
       <Banner />
       <Feature />
