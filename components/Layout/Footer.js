@@ -6,33 +6,43 @@ const Footer = () => {
   const [showContactModal, setShowContactModal] = useState(false);
 
   useEffect(() => {
-
     if (showContactModal) {
-      $('body').addClass('stick');
-			$('.modal').addClass('appear').hide().fadeIn();
-      $('#nav-bar').addClass('slideNow');
-			$('body').addClass('sticker');
-      
+      $("body").addClass("stick");
+      $(".modal").addClass("appear").fadeIn();
+      $("#nav-bar").addClass("slideNow");
+      $("body").addClass("sticker");
     } else {
-      $('.modal').removeClass('appear').fadeOut();
-			$('body').removeClass('stick');
-			$('#nav-bar').removeClass('slideNow');
-			$('body').removeClass('sticker');
-    }
-
-    return () => {
-      $('.modal').removeClass('appear');
-			$('body').removeClass('stick');
+      $(".modal").removeClass("appear").fadeOut();
+      $("body").removeClass("stick");
+      $("#nav-bar").removeClass("slideNow");
+      $("body").removeClass("sticker");
     }
 
   }, [showContactModal]);
 
+  const isBrowser = () => typeof window !== "undefined"
+
+  useEffect(() => {
+    if(isBrowser() && window.innerWidth < 768 ){
+      $('.menu-block h5').on('click', function(){
+        if($(this).hasClass('active')){
+          $(this).siblings('ul').slideUp();
+          $(this).removeClass('active');
+        }
+        else{
+          $('.menu-block h5').removeClass('active');
+          $('.menu-block ul').slideUp();
+          $(this).addClass('active');
+          $(this).siblings('ul').slideDown();
+        }
+      })
+    }
+  }, [])
 
   const handleGetInTouchBtn = (e) => {
-    e.preventDefault()
-    setShowContactModal(!showContactModal)
-  }
-
+    e.preventDefault();
+    setShowContactModal(!showContactModal);
+  };
 
   return (
     <Fragment>
@@ -51,10 +61,7 @@ const Footer = () => {
               >
                 Free Sign Up
               </a>
-              <button
-                onClick={handleGetInTouchBtn}
-                className="emptyBtn"
-              >
+              <button onClick={handleGetInTouchBtn} className="emptyBtn">
                 Get in Touch
               </button>
             </div>
@@ -302,7 +309,7 @@ const Footer = () => {
         </div>
       </footer>
       {showContactModal ? (
-            <ContactUsForm setShowContactModal={setShowContactModal} />
+        <ContactUsForm setShowContactModal={setShowContactModal} />
       ) : null}
     </Fragment>
   );

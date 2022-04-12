@@ -5,6 +5,10 @@ const Navbar = () => {
 
   const [isHamburgerBtnActive, setIsHamburgerBtnActive] = useState(false)
 
+  const handleHamBtnClick = () => {
+    setIsHamburgerBtnActive(!isHamburgerBtnActive)
+  }
+
   return (
     <header>
       <div className="offer-container">
@@ -25,7 +29,7 @@ const Navbar = () => {
                 aria-expanded={ !isHamburgerBtnActive ? "false" : "true"}
                 aria-label="Toggle navigation"
                 style={{ border: "unset" }}
-                onClick={() => setIsHamburgerBtnActive(!isHamburgerBtnActive)}
+                onClick={handleHamBtnClick}
               >
                 <span className="my-1 mx-2 close">X</span>
                 <span className="navbar-toggler-icon"></span>
